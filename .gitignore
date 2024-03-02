@@ -36,3 +36,73 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore sensitive data
+*.password
+*.key
+*.pem
+*.p12
+*.cer
+*.pfx
+
+# Ignore temporary files and build artifacts
+/node_modules/
+/build/
+/out/
+/.idea/
+/.vscode/
+/.project
+/.classpath
+/.settings/
+/.metadata/
+
+# Ignore dependency libraries
+/vendor/
+/lib/
+/jars/
+
+# Ignore generated files
+/generated/
+/generated-docs/
+/*.min.js
+/*.min.css
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.rar
+*.7z
+*.iso
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wav
+*.flv
+*.wmv
+*.ogg
+*.webm
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
